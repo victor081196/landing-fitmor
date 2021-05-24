@@ -675,7 +675,7 @@ ul.btn li:last-child {
 
 .choose .choose_box h3 {
      color: #00aeef;
-     font-size: 25px;
+     font-size: 20px;
      line-height: 28px;
      font-weight: 500;
      padding-bottom: 10px;
@@ -684,9 +684,10 @@ ul.btn li:last-child {
 
 .choose .choose_box p {
      color: #010a05;
-     font-size: 17px;
-     line-height: 30px;
-     font-weight: 500;
+     font-size: 15px;
+     line-height: 18px;
+     font-weight: 450;
+     
 }
 
 .padding_right0 {
