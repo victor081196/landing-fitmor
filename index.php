@@ -29,13 +29,17 @@
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
    <script src="js/jquery.min.js"></script>
    <script src="js/jquery-3.0.0.min.js"></script>
    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+
+
 </head>
 <!-- body -->
+
 <body class="main-layout">
    <!-- loader  -->
    <div class="loader_bg">
@@ -182,6 +186,7 @@
                         <p>Fitmor estan enfocado en ofrecer soluciones prácticas y
                            eficientes para las diferentes necesidades que los gimnasios tienen en sus operaciones
                            diarias.
+
                            Con nuestro software de administración en la nube estarás conectado a tu negocio en donde
                            quiera que te encuentres y podrás supervisar las áreas más importantes de tu negocio. </p>
                         <a class="read_more">Read More</a>
@@ -207,6 +212,7 @@
                   <div class="row">
                      <div class="col-md-12">
                         <div class="row">
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i><i class="far fa-check-circle fa-6x" style="color: #0eadef;"></i></i>
@@ -215,13 +221,16 @@
                                  </p>
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
+
                                  <i class="fas fa-laptop fa-6x" style="color: #0eadef;"></i>
                                  <h3> Multiplataforma </h3>
                                  <p>Funciona en Windows, Mac, Linux y También iPhone, iPad o cualquiera con Android.</p>
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box ">
                                  <i class="fas fa-users fa-6x" style="color: #0eadef;"></i>
@@ -231,6 +240,7 @@
                            </div>
                         </div>
                         <div class="row ">
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="fas fa-user-cog fa-6x" style="color: #0eadef;"></i>
@@ -238,6 +248,7 @@
                                  <p>Pagos, renovaciones, vencimientos, permita o niege la entrada.</p>
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="fas fa-cash-register fa-6x" style="color: #0eadef;"></i>
@@ -246,6 +257,7 @@
                                  </p>
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="fas fa-file-invoice-dollar fa-6x" style="color: #0eadef;"></i>
@@ -255,6 +267,7 @@
                            </div>
                         </div>
                         <div class="row ">
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="fas fa-file-alt fa-6x" style="color: #0eadef;"></i>
@@ -262,6 +275,7 @@
                                  <p>Cortes de caja claros por turno, multiples cajeros.</p>
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="far fa-smile fa-6x" style="color: #0eadef;"></i>
@@ -270,6 +284,7 @@
                                  </p>
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="fas fa-shield-alt fa-6x" style="color: #0eadef;"></i>
@@ -279,6 +294,7 @@
                               </div>
                            </div>
                         </div>
+
                      </div>
                   </div>
                </div>
@@ -324,6 +340,7 @@
                   <div class="row">
                      <div class="col-md-12">
                         <div class="row">
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                               <i class="fas fa-box-open fa-5x" style="color: #000;"></i>
@@ -348,10 +365,13 @@
                                     <li class="list-group-item">Costo licencia mensual</li>
                                     <li class="list-group-item">Costo licencia anual</li>
                                  </ul>
+
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
+
                               <i class="fas fa-thumbs-up fa-5x" style="color: #0eadef;"></i>
                                  <h3> Plan free </h3>
                                  <ul class="list-group">
@@ -375,8 +395,10 @@
                                     <li class="list-group-item text-item">$0.00</li>
                                     <li class="list-group-item text-item">$0.00</li>
                                  </ul>
+
                               </div>
                            </div>
+
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box ">
                                  <i class="fas fa-dollar-sign fa-5x" style="color: #000;"></i>
@@ -404,6 +426,8 @@
                               </div>
                            </div>
                         </div>
+
+
                      </div>
                   </div>
                </div>
@@ -439,11 +463,14 @@
                            <div class="col-md-12">
                               <button type="button" id="btn-form" class="send_btn " >Enviar</button>
                               
+
                            </div>
                         </div>
+
                      </form>
                   </div>
                   <div class="col-md-6">
+
                      <img src="images/img1fit.jpg" alt="#" />
                   </div>
                </div>
@@ -525,9 +552,14 @@
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
+
+
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
+
       <script src="js/envioform.js"></script>
+
+
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
@@ -536,10 +568,12 @@
             $("#sidebar").mCustomScrollbar({
                theme: "minimal"
             });
+
             $('#dismiss, .overlay').on('click', function() {
                $('#sidebar').removeClass('active');
                $('.overlay').removeClass('active');
             });
+
             $('#sidebarCollapse').on('click', function() {
                $('#sidebar').addClass('active');
                $('.overlay').addClass('active');
@@ -554,9 +588,12 @@
                openEffect: "none",
                closeEffect: "none"
             });
+
             $(".zoom").hover(function() {
+
                $(this).addClass('transition');
             }, function() {
+
                $(this).removeClass('transition');
             });
          });
@@ -572,6 +609,7 @@
                   lng: -73.880224
                },
             });
+
             var image = 'images/maps-and-flags.png';
             var beachMarker = new google.maps.Marker({
                position: {
@@ -587,4 +625,5 @@
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->
 </body>
+
 </html>
