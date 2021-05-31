@@ -14,7 +14,7 @@ $(document).ready(function () {
         if (correo == "") {
             error += "*Ingresa un correo valido   \n "
         }
-        if (tel == "") {
+        if (tel == "" ) {
             error += "*Ingresa un telefono valido \n "
         }
 

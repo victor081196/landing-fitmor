@@ -227,7 +227,7 @@
 
                                  <i class="fas fa-laptop fa-6x" style="color: #0eadef;"></i>
                                  <h3> Multiplataforma </h3>
-                                 <p>Funciona en Windows, Mac, Linux y También iPhone, iPad o cualquiera con Android.</p>
+                                 <p>Funciona en Windows, Mac, Linux y También iPhone, iPad o dispositivos Android.</p>
                               </div>
                            </div>
 
@@ -244,8 +244,8 @@
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
                                  <i class="fas fa-user-cog fa-6x" style="color: #0eadef;"></i>
-                                 <h3> Control sobre sus clientes</h3>
-                                 <p>Pagos, renovaciones, vencimientos, permita o niege la entrada.</p>
+                                 <h3> Control total de tus socios</h3>
+                                 <p>Pagos, renovaciones, vencimientos de suscripciones</p>
                               </div>
                            </div>
 
@@ -291,6 +291,33 @@
                                  <h3> Seguridad de informacion</h3>
                                  <p>Tu información está protegida, disponible y resguardada
                                     en la nube. </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row ">
+
+                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
+                              <div class="choose_box">
+                                 <i class="fas fa-walking fa-6x" style="color: #0eadef;"></i>
+                                 <h3> Control de asistencia</h3>
+                                 <p> permita o niegue la entrada, depende al estado de su suscripción.</p>
+                              </div>
+                           </div>
+
+                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
+                              <div class="choose_box">
+                                 <i class="fas fa-camera fa-6x" style="color: #0eadef;"></i>
+                                 <h3>Soporta camara</h3>
+                                 <p>Modulo para tomar fotografia y agregarla al perfil de cada cliente.
+                                 </p>
+                              </div>
+                           </div>
+
+                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
+                              <div class="choose_box">
+                                 <i class="fas fa-hand-holding-usd fa-6x" style="color: #0eadef;"></i>
+                                 <h3> Precios accesibles</h3>
+                                 <p>Nuestro planes tiene costos realmente bajos y contamos con un plan free. </p>
                               </div>
                            </div>
                         </div>
@@ -449,19 +476,19 @@
                      <form id="form-contacto" class="main_form">
                         <div class="row">
                            <div class="col-md-12 ">
-                              <input class="contactus" placeholder="Nombre" type="type" name="nombre" id="nombre">
+                              <input class="contactus" placeholder="Nombre" type="text" name="nombre" id="nombre" required>
                            </div>
                            <div class="col-md-12">
-                              <input class="contactus" placeholder="Correo" type="type" name="correo" id="correo">
+                              <input class="contactus" placeholder="Correo" type="email" name="correo" id="correo" required>
                            </div>
                            <div class="col-md-12">
-                              <input class="contactus" placeholder="Telefono" type="type" name="telefono" id="telefono">
+                              <input class="contactus" placeholder="Telefono" type="tel" name="tel" id="telefono"  required>
                            </div>
                            <div class="col-md-12">
-                              <textarea class="textarea" placeholder="Mensaje" type="type" name="mensaje" id="mensaje"></textarea>
+                              <textarea class="textarea" placeholder="Mensaje" type="text" name="mensaje" id="mensaje"></textarea>
                            </div>
                            <div class="col-md-12">
-                              <button type="button" id="btn-form" class="send_btn " >Enviar</button>
+                              <button type="submit" id="btn-form" class="send_btn " >Enviar</button>
                               
 
                            </div>
