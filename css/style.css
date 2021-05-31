@@ -1004,3 +1004,15 @@ ul.social_icon li a i:hover {
 
 /** end footer **/
 
+
+/***Mis estilos***/
+.fa-times{
+ color: #C20017;
+}
+.fa-check{
+     color: #08A900;
+}
+.text-item{
+     color: #000;
+     font-weight: bolder;
+}

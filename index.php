@@ -25,14 +25,18 @@
    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+
+
 </head>
 <!-- body -->
 
@@ -339,12 +343,27 @@
 
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
-                                 <i><i class="far fa-thumbs-up fa-6x" style="color: #0eadef;"></i></i>
-                                 <h3>GRATUITO</h3>
+                              <i class="fas fa-box-open fa-5x" style="color: #000;"></i>
+                                 <h3 style="color: #000;" >Caractetisticas</h3>
                                  <ul class="list-group">
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Porta ac consectetur ac</li>
-                                    <li class="list-group-item">Vestibulum at eros</li>
+                                    <li class="list-group-item">Usuarios</li>
+                                    <li class="list-group-item">Sucursales</li>
+                                    <li class="list-group-item">Cajas</li>
+                                     <li class="list-group-item">Reporte de ventas</li>
+                                    <li class="list-group-item">Reporte de suscripciones</li>
+                                    <li class="list-group-item">Alta de socios</li>
+                                    <li class="list-group-item">Informe de socios activos</li>
+                                    <li class="list-group-item">Informe de socios inactivos</li>
+                                    <li class="list-group-item">Informe de socios por terminar suscripción</li>
+                                    <li class="list-group-item">Reportes en Excel</li>
+                                    <li class="list-group-item">Productos</li>
+                                    <li class="list-group-item">Ofrecer en línea sus productos</li>
+                                    <li class="list-group-item">Página web con plantillas </li>
+                                    <li class="list-group-item">Reporte de inventario</li>
+                                    <li class="list-group-item">Módulo de asistencia</li>
+                                    <li class="list-group-item">Actualizaciones de módulos</li>
+                                    <li class="list-group-item">Costo licencia mensual</li>
+                                    <li class="list-group-item">Costo licencia anual</li>
                                  </ul>
 
                               </div>
@@ -353,12 +372,28 @@
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box">
 
-                                 <i class="fas fa-coins fa-6x" style="color: #0eadef;"></i>
-                                 <h3> MENSUAL </h3>
+                              <i class="fas fa-thumbs-up fa-5x" style="color: #0eadef;"></i>
+                                 <h3> Plan free </h3>
                                  <ul class="list-group">
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Porta ac consectetur ac</li>
-                                    <li class="list-group-item">Vestibulum at eros</li>
+                                    <li class="list-group-item text-item">2</li>
+                                    <li class="list-group-item text-item">1</li>
+                                    <li class="list-group-item text-item">1</li>
+                                    <li class="list-group-item"><i class="fas fa-times " ></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item text-item">100</li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times mt-4 mb-2"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item text-item">50</li>
+                                    
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check " ></i></li>
+                                    <li class="list-group-item text-item">$0.00</li>
+                                    <li class="list-group-item text-item">$0.00</li>
                                  </ul>
 
                               </div>
@@ -366,12 +401,27 @@
 
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 padding_left0 mt-2 mb-2">
                               <div class="choose_box ">
-                                 <i class="fas fa-dollar-sign fa-6x" style="color: #0eadef;"></i>
-                                 <h3>ANUAL</h3>
+                                 <i class="fas fa-dollar-sign fa-5x" style="color: #000;"></i>
+                                 <h3 style="color: #000;">Plan start</h3>
                                  <ul class="list-group">
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Porta ac consectetur ac</li>
-                                    <li class="list-group-item">Vestibulum at eros</li>
+                                    <li class="list-group-item text-item">4</li>
+                                    <li class="list-group-item text-item">1</li>
+                                    <li class="list-group-item text-item">2</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item text-item">Ilimitado</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check mt-4 mb-2"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item text-item">Ilimitado</li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-times"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i></li>
+                                    <li class="list-group-item text-item">$150.00</li>
+                                    <li class="list-group-item text-item">$900.00</li>
                                  </ul>
                               </div>
                            </div>
@@ -396,29 +446,31 @@
                </div>
                <div class="row">
                   <div class="col-md-6">
-                     <form id="request" method="post" action="correo.php" class="main_form" >
+                     <form id="form-contacto" class="main_form">
                         <div class="row">
                            <div class="col-md-12 ">
-                              <input class="contactus" placeholder="Nombre" type="type" name="Name">
+                              <input class="contactus" placeholder="Nombre" type="type" name="nombre" id="nombre">
                            </div>
                            <div class="col-md-12">
-                              <input class="contactus" placeholder="Correo" type="type" name="Email">
+                              <input class="contactus" placeholder="Correo" type="type" name="correo" id="correo">
                            </div>
                            <div class="col-md-12">
-                              <input class="contactus" placeholder="Telefono" type="type" name="Phone">
+                              <input class="contactus" placeholder="Telefono" type="type" name="telefono" id="telefono">
                            </div>
                            <div class="col-md-12">
-                              <textarea class="textarea" placeholder="Mensaje" type="type" name="mensaje"></textarea>
+                              <textarea class="textarea" placeholder="Mensaje" type="type" name="mensaje" id="mensaje"></textarea>
                            </div>
                            <div class="col-md-12">
-                              <button type="submit" class="send_btn">Enviar</button>
+                              <button type="button" id="btn-form" class="send_btn " >Enviar</button>
                               
+
                            </div>
                         </div>
 
                      </form>
                   </div>
                   <div class="col-md-6">
+
                      <img src="images/img1fit.jpg" alt="#" />
                   </div>
                </div>
@@ -469,8 +521,7 @@
                                  </li>
                                  <li><a href="https://www.youtube.com/channel/UC-WXih3XuIGhNAffByRgA1w" target="_blank">
                                        Youtube<i class="fab fa-youtube"></i></a></li>
-                                 <li><a href="https://www.instagram.com/softmormx/" target="_blank"> Instagram<i
-                                          class="fab fa-instagram"></i></a></li>
+                                 <li><a href="https://www.instagram.com/softmormx/" target="_blank"> Instagram<i class="fab fa-instagram"></i></a></li>
                               </ul>
                            </div>
                            <div class="col-md-7 col-sm-6">
@@ -478,8 +529,7 @@
                                  <h3>Newsletter </h3>
                               </div>
                               <form class="bottom_form">
-                                 <input class="enter" placeholder="Enter Your Email" type="text"
-                                    name="Enter Your Email">
+                                 <input class="enter" placeholder="Enter Your Email" type="text" name="Enter Your Email">
                                  <button class="sub_btn">subscribe</button>
                               </form>
                            </div>
@@ -502,25 +552,29 @@
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
+
+
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
+
+      <script src="js/envioform.js"></script>
+
+
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script type="text/javascript">
-         $(document).ready(function () {
+         $(document).ready(function() {
             $("#sidebar").mCustomScrollbar({
                theme: "minimal"
             });
 
-            $('#dismiss, .overlay').on('click', function () {
+            $('#dismiss, .overlay').on('click', function() {
                $('#sidebar').removeClass('active');
                $('.overlay').removeClass('active');
             });
 
-            $('#sidebarCollapse').on('click', function () {
+            $('#sidebarCollapse').on('click', function() {
                $('#sidebar').addClass('active');
                $('.overlay').addClass('active');
                $('.collapse.in').toggleClass('in');
@@ -529,16 +583,16 @@
          });
       </script>
       <script>
-         $(document).ready(function () {
+         $(document).ready(function() {
             $(".fancybox").fancybox({
                openEffect: "none",
                closeEffect: "none"
             });
 
-            $(".zoom").hover(function () {
+            $(".zoom").hover(function() {
 
                $(this).addClass('transition');
-            }, function () {
+            }, function() {
 
                $(this).removeClass('transition');
             });
@@ -568,8 +622,7 @@
          }
       </script>
       <!-- google map js -->
-      <script
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->
 </body>
 
